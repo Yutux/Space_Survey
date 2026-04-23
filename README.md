@@ -1,7 +1,7 @@
 # 🚀 Space Pipeline — Big Data ML & Streaming + IA
 
 Pipeline de traitement de données planétaires combinant **NASA API**, **Kafka**,
-**Spark Streaming**, **Claude AI**, **HDFS**, **MinIO** et **MongoDB**.
+**Spark Streaming**, **ML**, **HDFS**, **MinIO** et **MongoDB**.
 
 ---
 
@@ -77,26 +77,6 @@ pip install pandas kafka-python requests
 > ⚠️ **Windows PowerShell** : toutes les commandes `docker exec` sur **une seule ligne**.
 
 ---
-
-## 🔑 Clé API Claude (obligatoire pour l'IA)
-
-Le streaming appelle l'API Claude. Il faut que la clé soit disponible dans le container Spark.
-
-```powershell
-# Ajouter la clé dans le container spark-master
-docker exec -it spark-master bash -c "echo 'export ANTHROPIC_API_KEY=sk-ant-votre-cle' >> /root/.bashrc"
-```
-
-Ou ajoutez-la directement dans `spark_streaming.py` dans les headers de la requête :
-
-```python
-headers = {
-    "Content-Type": "application/json",
-    "x-api-key": "sk-ant-votre-cle-ici",
-    "anthropic-version": "2023-06-01"
-}
-```
-
 ---
 
 ## 🚀 Lancement — Étape par étape
@@ -184,7 +164,7 @@ python kafka_producer.py --source both --rounds 5 --delay 2.0
 
 Toutes les **20 secondes**, Spark déclenche un batch qui :
 - Sauvegarde le CSV brut dans MinIO
-- Appelle Claude AI pour analyse
+- Appelle AI pour analyse
 - Sauvegarde le CSV traité dans MinIO
 - Insère dans MongoDB
 
@@ -231,7 +211,7 @@ space-streaming/
 | habitability_score | ❌ | ✅ |
 | habitability_class | ❌ | ✅ |
 | alerts | ❌ | ✅ |
-| ai_analysis (Claude) | ❌ | ✅ |
+| ai_analysis | ❌ | ✅ |
 
 ---
 
@@ -369,14 +349,6 @@ docker compose ps minio
 # Vérifier que le bucket existe
 docker exec -it minio-init mc ls local/
 ```
-
----
-
-### ❌ `Erreur API Claude : ...`
-
-Vérifier que la clé API est bien configurée dans `spark_streaming.py`.
-Si pas de clé, le streaming continue mais le champ `ai_analysis` contiendra
-`"Erreur API Claude : ..."` — toutes les autres fonctionnalités restent actives.
 
 ---
 
