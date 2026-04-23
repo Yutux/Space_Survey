@@ -1,0 +1,220 @@
+system_name,star_type,star_luminosity,star_age_gy,xuv_factor,flare_risk,name,planet_type,distance_au,radius_km,mass_earth,gravity_g,avg_temp_celsius,stellar_flux,surface_radiation_msv_h,tidally_locked,retains_atmosphere,atmosphere_o2,atmosphere_co2,atmosphere_n2,has_water,magnetic_field,moons,in_habitable_zone,albedo,habitable_candidate,has_water_int,magnetic_field_int,in_hz_int,habitable_candidate_int,tidally_locked_int,retains_atmosphere_int,label
+Aeloria Prime,Naine jaune,1.0,4.2,1.0,0.1,Pyrox,Lave,0.3,4200,0.6,0.7,221.2,11.1111,0.00963,False,False,0,90,9,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Aeloria Prime,Naine jaune,1.0,4.2,1.0,0.1,Aeloria-I,Tellurique,0.95,6200,0.9,0.93,-12.3,1.108,1.1e-05,False,True,20,1,78,True,True,1,True,0.3,True,1,1,1,1,0,1,inconnue
+Aeloria Prime,Naine jaune,1.0,4.2,1.0,0.1,Aeloria-II,Ocean,1.2,7000,1.1,1.05,-33.1,0.6944,1e-05,False,True,18,2,79,True,True,2,True,0.2,True,1,1,1,1,0,1,non_habitable
+Aeloria Prime,Naine jaune,1.0,4.2,1.0,0.1,Garvex,Gazeuse,4.0,55000,250.0,2.4,-157.5,0.0625,6.3e-05,False,True,0,0,0,False,True,14,False,0.52,False,0,1,0,0,0,1,non_habitable
+Aeloria Prime,Naine jaune,1.0,4.2,1.0,0.1,Cryon-I,Naine glacee,12.0,2800,0.08,0.07,-213.8,0.0069,1e-05,False,False,0,0,98,False,False,1,False,0.7,False,0,0,0,0,0,0,non_habitable
+Vexar System,Naine rouge,0.01,8.5,10.0,0.6,Vexar-I,Lave,0.05,3800,0.5,0.6,109.8,4.0,0.078,True,True,0,95,4,False,False,0,False,0.1,False,0,0,0,0,1,1,non_habitable
+Vexar System,Naine rouge,0.01,8.5,10.0,0.6,Vexar-II,Tellurique,0.15,5800,0.85,0.88,-65.5,0.4444,4.3e-05,True,True,15,3,80,True,True,0,True,0.3,True,1,1,1,1,1,1,non_habitable
+Vexar System,Naine rouge,0.01,8.5,10.0,0.6,Vexar-III,Super-Terre,0.25,9000,2.5,1.8,-115.3,0.16,1.6e-05,True,True,10,8,80,True,True,1,False,0.35,True,1,1,0,1,1,1,non_habitable
+Vexar System,Naine rouge,0.01,8.5,10.0,0.6,Vexar-IV,Naine glacee,1.5,2000,0.05,0.05,-220.0,0.0044,1e-05,False,False,0,1,90,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Drakon Nebula,Geante bleue,50000.0,0.05,100000.0,0.0,Drakon-I,Lave,5.0,6000,1.0,1.0,1537.6,2000.0,78000.0,False,True,0,70,20,False,False,0,False,0.1,False,0,0,0,0,0,1,non_habitable
+Drakon Nebula,Geante bleue,50000.0,0.05,100000.0,0.0,Drakon-II,Gazeuse,50.0,70000,400.0,3.0,216.2,20.0,2000.0,False,True,0,0,0,False,True,32,False,0.52,False,0,1,0,0,0,1,non_habitable
+Drakon Nebula,Geante bleue,50000.0,0.05,100000.0,0.0,Drakon-III,Naine glacee,200.0,3000,0.1,0.1,-55.6,1.25,10.263158,False,False,0,0,95,False,False,2,True,0.7,False,0,0,1,0,0,0,non_habitable
+Luminos Cluster,Naine orange,0.3,6.1,2.0,0.2,Luminos-I,Tellurique,0.2,4500,0.4,0.5,147.7,7.5,0.003343,False,True,2,60,35,False,False,0,False,0.3,True,0,0,0,1,0,1,non_habitable
+Luminos Cluster,Naine orange,0.3,6.1,2.0,0.2,Luminos-II,Ocean,0.45,6800,1.0,0.98,16.9,1.4815,3e-05,False,True,22,1,76,True,True,1,True,0.2,True,1,1,1,1,0,1,habitable
+Luminos Cluster,Naine orange,0.3,6.1,2.0,0.2,Luminos-III,Super-Terre,0.65,10000,3.0,2.0,-44.0,0.7101,1.4e-05,False,True,14,5,79,True,True,2,True,0.35,True,1,1,1,1,0,1,non_habitable
+Luminos Cluster,Naine orange,0.3,6.1,2.0,0.2,Glacior,Geante gazeuse,3.0,60000,300.0,2.5,-174.3,0.0333,6.7e-05,False,True,0,0,0,False,True,20,False,0.52,False,0,1,0,0,0,1,non_habitable
+Stygion Void,Naine blanche,0.001,12.0,50.0,0.0,Stygion-I,Naine glacee,0.02,3500,0.2,0.25,-14.4,2.5,0.010833,True,False,0,5,90,False,False,0,False,0.7,False,0,0,0,0,1,0,non_habitable
+Stygion Void,Naine blanche,0.001,12.0,50.0,0.0,Stygion-II,Naine glacee,0.08,4000,0.3,0.35,-143.8,0.1562,0.000641,True,False,0,2,95,False,False,1,False,0.7,False,0,0,0,0,1,0,non_habitable
+Verdantis Alpha,Sous-geante,3.0,3.8,1.5,0.08,Verdantis-I,Lave,0.4,5000,0.7,0.8,290.3,18.75,0.01567,False,True,0,85,14,False,False,0,False,0.1,False,0,0,0,0,0,1,non_habitable
+Verdantis Alpha,Sous-geante,3.0,3.8,1.5,0.08,Verdantis-II,Tellurique,1.1,6500,0.95,0.97,45.9,2.4793,3.8e-05,False,True,21,1,77,True,True,2,False,0.3,True,1,1,0,1,0,1,non_habitable
+Verdantis Alpha,Sous-geante,3.0,3.8,1.5,0.08,Verdantis-III,Ocean,1.6,7200,1.2,1.1,0.4,1.1719,1.8e-05,False,True,19,2,78,True,True,1,True,0.2,True,1,1,1,1,0,1,habitable
+Verdantis Alpha,Sous-geante,3.0,3.8,1.5,0.08,Verdantis-IV,Gazeuse,5.5,65000,320.0,2.6,-143.3,0.0992,0.000149,False,True,0,0,0,False,True,18,False,0.52,False,0,1,0,0,0,1,non_habitable
+Verdantis Alpha,Sous-geante,3.0,3.8,1.5,0.08,Glacius-V,Naine glacee,15.0,2500,0.07,0.07,-203.2,0.0133,1e-05,False,False,0,0,99,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Ashenveil Binary,Geante rouge,1000.0,9.8,5.0,0.05,Ashenveil-I,Lave,8.0,7000,1.3,1.2,265.2,15.625,0.030469,False,True,0,75,20,False,False,0,False,0.1,False,0,0,0,0,0,1,non_habitable
+Ashenveil Binary,Geante rouge,1000.0,9.8,5.0,0.05,Ashenveil-II,Gazeuse,25.0,58000,280.0,2.3,-12.9,1.6,0.008,False,True,0,0,0,False,True,25,True,0.52,False,0,1,1,0,0,1,non_habitable
+Ashenveil Binary,Geante rouge,1000.0,9.8,5.0,0.05,Ashenveil-III,Naine glacee,80.0,3200,0.15,0.15,-143.8,0.1562,6.2e-05,False,False,0,0,98,False,False,2,False,0.7,False,0,0,0,0,0,0,non_habitable
+Kepler Nova,Naine jaune,1.0,5.5,1.0,0.1,Kepler-I,Lave,0.2,4000,0.5,0.6,332.3,25.0,0.0195,False,False,0,88,10,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Kepler Nova,Naine jaune,1.0,5.5,1.0,0.1,Kepler-II,Tellurique,1.0,6400,1.0,1.0,-18.9,1.0,1e-05,False,True,21,1,77,True,True,1,True,0.3,True,1,1,1,1,0,1,inconnue
+Kepler Nova,Naine jaune,1.0,5.5,1.0,0.1,Kepler-III,Ocean,1.4,7100,1.2,1.1,-50.9,0.5102,1e-05,False,True,20,1,78,True,True,2,True,0.2,True,1,1,1,1,0,1,non_habitable
+Kepler Nova,Naine jaune,1.0,5.5,1.0,0.1,Kepler-IV,Gazeuse,5.0,60000,300.0,2.5,-169.7,0.04,4e-05,False,True,0,0,0,False,True,20,False,0.52,False,0,1,0,0,0,1,non_habitable
+Orion Belt,Naine orange,0.3,7.2,2.0,0.2,Orion-I,Tellurique,0.4,5500,0.7,0.8,24.4,1.875,3.7e-05,False,True,18,2,79,True,True,1,False,0.3,True,1,1,0,1,0,1,non_habitable
+Orion Belt,Naine orange,0.3,7.2,2.0,0.2,Orion-II,Super-Terre,0.6,9500,2.8,1.9,-34.7,0.8333,1.6e-05,False,True,16,3,80,True,True,0,True,0.35,True,1,1,1,1,0,1,non_habitable
+Orion Belt,Naine orange,0.3,7.2,2.0,0.2,Orion-III,Naine glacee,3.0,2500,0.06,0.06,-185.2,0.0333,1e-05,False,False,0,0,99,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Solara Minor,Sous-geante,3.0,4.5,1.5,0.08,Solara-I,Lave,0.3,4800,0.6,0.7,377.5,33.3333,0.055714,False,False,0,92,7,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Solara Minor,Sous-geante,3.0,4.5,1.5,0.08,Solara-II,Ocean,1.3,7000,1.1,1.05,30.3,1.7751,2.7e-05,False,True,22,1,76,True,True,3,True,0.2,True,1,1,1,1,0,1,inconnue
+Solara Minor,Sous-geante,3.0,4.5,1.5,0.08,Solara-III,Tellurique,1.8,6200,0.9,0.92,-23.7,0.9259,1.4e-05,False,True,19,2,78,True,True,1,True,0.3,True,1,1,1,1,0,1,inconnue
+Solara Minor,Sous-geante,3.0,4.5,1.5,0.08,Solara-IV,Gazeuse,6.0,55000,270.0,2.3,-148.8,0.0833,0.000125,False,True,0,0,0,False,True,15,False,0.52,False,0,1,0,0,0,1,non_habitable
+Cygnus Deep,Naine rouge,0.01,6.0,10.0,0.6,Cygnus-I,Tellurique,0.1,5800,0.8,0.85,-18.9,1.0,9.7e-05,True,True,17,2,80,True,True,0,True,0.3,True,1,1,1,1,1,1,inconnue
+Cygnus Deep,Naine rouge,0.01,6.0,10.0,0.6,Cygnus-II,Super-Terre,0.2,8500,2.2,1.7,-96.6,0.25,2.4e-05,True,True,12,6,81,True,True,1,False,0.35,True,1,1,0,1,1,1,non_habitable
+Cygnus Deep,Naine rouge,0.01,6.0,10.0,0.6,Cygnus-III,Naine glacee,1.0,2200,0.04,0.04,-208.1,0.01,1e-05,False,False,0,1,95,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Arcturus Prime,Geante rouge,1000.0,8.0,5.0,0.05,Arcturus-I,Lave,5.0,6500,1.1,1.1,407.8,40.0,0.086667,False,True,0,80,18,False,False,0,False,0.1,False,0,0,0,0,0,1,non_habitable
+Arcturus Prime,Geante rouge,1000.0,8.0,5.0,0.05,Arcturus-II,Gazeuse,20.0,62000,290.0,2.4,17.8,2.5,0.0125,False,True,0,0,0,False,True,22,False,0.52,False,0,1,0,0,0,1,non_habitable
+Arcturus Prime,Geante rouge,1000.0,8.0,5.0,0.05,Arcturus-III,Naine glacee,60.0,3100,0.12,0.12,-123.8,0.2778,0.000112,False,False,0,0,97,False,False,1,False,0.7,False,0,0,0,0,0,0,non_habitable
+Helios Secundus,Naine jaune,1.0,3.1,1.0,0.1,Helios-I,Lave,0.4,4600,0.65,0.72,155.0,6.25,0.006094,False,False,0,91,8,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Helios Secundus,Naine jaune,1.0,3.1,1.0,0.1,Helios-II,Tellurique,0.85,6300,0.95,0.96,2.7,1.3841,1.4e-05,False,True,20,1,78,True,True,1,True,0.3,True,1,1,1,1,0,1,habitable
+Helios Secundus,Naine jaune,1.0,3.1,1.0,0.1,Helios-III,Super-Terre,1.3,9200,2.6,1.85,-54.2,0.5917,1e-05,False,True,17,3,79,True,True,2,True,0.35,True,1,1,1,1,0,1,non_habitable
+Helios Secundus,Naine jaune,1.0,3.1,1.0,0.1,Helios-IV,Gazeuse,4.5,58000,260.0,2.2,-164.1,0.0494,4.9e-05,False,True,0,0,0,False,True,16,False,0.52,False,0,1,0,0,0,1,non_habitable
+Helios Secundus,Naine jaune,1.0,3.1,1.0,0.1,Helios-V,Naine glacee,10.0,2600,0.07,0.07,-208.1,0.01,1e-05,False,False,0,0,98,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Proxima Obscura,Naine rouge,0.01,10.2,10.0,0.6,Proxima-I,Tellurique,0.08,5900,0.82,0.87,11.1,1.5625,0.000156,True,True,19,2,78,True,True,0,True,0.3,True,1,1,1,1,1,1,inconnue
+Proxima Obscura,Naine rouge,0.01,10.2,10.0,0.6,Proxima-II,Ocean,0.12,6700,1.0,0.99,-33.1,0.6944,7e-05,True,True,21,1,77,True,True,1,True,0.2,True,1,1,1,1,1,1,non_habitable
+Proxima Obscura,Naine rouge,0.01,10.2,10.0,0.6,Proxima-III,Naine glacee,0.8,2100,0.03,0.03,-200.4,0.0156,1.2e-05,False,False,0,0,98,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Tauri Expanse,Naine orange,0.3,5.3,2.0,0.2,Tauri-I,Lave,0.15,4100,0.55,0.65,244.3,13.3333,0.017333,True,False,0,87,12,False,False,0,False,0.1,False,0,0,0,0,1,0,non_habitable
+Tauri Expanse,Naine orange,0.3,5.3,2.0,0.2,Tauri-II,Tellurique,0.5,6100,0.88,0.91,-7.0,1.2,2.4e-05,False,True,20,1,78,True,True,1,True,0.3,True,1,1,1,1,0,1,habitable
+Tauri Expanse,Naine orange,0.3,5.3,2.0,0.2,Tauri-III,Ocean,0.7,6900,1.05,1.02,-40.6,0.6122,1.3e-05,False,True,23,1,75,True,True,2,True,0.2,True,1,1,1,1,0,1,non_habitable
+Tauri Expanse,Naine orange,0.3,5.3,2.0,0.2,Tauri-IV,Geante gazeuse,4.0,65000,310.0,2.55,-187.5,0.0187,3.8e-05,False,True,0,0,0,False,True,24,False,0.52,False,0,1,0,0,0,1,non_habitable
+Meridian Cross,Sous-geante,3.0,6.7,1.5,0.08,Meridian-I,Tellurique,0.9,6000,0.87,0.9,79.6,3.7037,5.4e-05,False,True,16,3,80,True,True,1,False,0.3,True,1,1,0,1,0,1,non_habitable
+Meridian Cross,Sous-geante,3.0,6.7,1.5,0.08,Meridian-II,Ocean,1.5,7300,1.25,1.12,9.4,1.3333,2e-05,False,True,20,2,77,True,True,2,True,0.2,True,1,1,1,1,0,1,habitable
+Meridian Cross,Sous-geante,3.0,6.7,1.5,0.08,Meridian-III,Super-Terre,2.2,9800,2.9,1.95,-51.7,0.6198,1e-05,False,True,8,10,80,True,True,1,True,0.35,True,1,1,1,1,0,1,non_habitable
+Meridian Cross,Sous-geante,3.0,6.7,1.5,0.08,Meridian-IV,Gazeuse,7.0,57000,285.0,2.35,-158.0,0.0612,9.2e-05,False,True,0,0,0,False,True,19,False,0.52,False,0,1,0,0,0,1,non_habitable
+Meridian Cross,Sous-geante,3.0,6.7,1.5,0.08,Meridian-V,Naine glacee,18.0,2700,0.09,0.09,-209.3,0.0093,1e-05,False,False,0,0,99,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Ferox Cluster,Naine blanche,0.001,9.5,50.0,0.0,Ferox-I,Naine glacee,0.01,3300,0.18,0.22,92.7,10.0,0.042391,True,False,0,4,92,False,False,0,False,0.7,False,0,0,0,0,1,0,non_habitable
+Ferox Cluster,Naine blanche,0.001,9.5,50.0,0.0,Ferox-II,Tellurique,0.05,5700,0.78,0.83,-70.9,0.4,0.00166,True,True,0,3,94,False,False,0,True,0.3,True,0,0,1,1,1,1,non_habitable
+Ferox Cluster,Naine blanche,0.001,9.5,50.0,0.0,Ferox-III,Naine glacee,0.2,3900,0.28,0.33,-191.3,0.025,0.000102,True,False,0,1,96,False,False,1,False,0.7,False,0,0,0,0,1,0,non_habitable
+Nova Serpentis,Naine jaune,1.0,7.8,1.0,0.1,Serpentis-I,Lave,0.25,4300,0.58,0.68,268.4,16.0,0.01248,False,False,0,89,10,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Nova Serpentis,Naine jaune,1.0,7.8,1.0,0.1,Serpentis-II,Ocean,1.1,6600,0.97,0.97,-22.5,0.8264,1e-05,False,True,22,1,76,True,True,1,True,0.2,True,1,1,1,1,0,1,inconnue
+Nova Serpentis,Naine jaune,1.0,7.8,1.0,0.1,Serpentis-III,Tellurique,1.5,6100,0.88,0.91,-65.5,0.4444,1e-05,False,True,18,2,79,True,True,0,True,0.3,True,1,1,1,1,0,1,non_habitable
+Nova Serpentis,Naine jaune,1.0,7.8,1.0,0.1,Serpentis-IV,Gazeuse,6.0,56000,265.0,2.25,-178.7,0.0278,2.8e-05,False,True,0,0,0,False,True,17,False,0.52,False,0,1,0,0,0,1,non_habitable
+Azar Twilight,Naine rouge,0.01,4.8,10.0,0.6,Azar-I,Lave,0.04,3700,0.48,0.58,155.0,6.25,0.08125,True,False,0,93,6,False,False,0,False,0.1,False,0,0,0,0,1,0,non_habitable
+Azar Twilight,Naine rouge,0.01,4.8,10.0,0.6,Azar-II,Super-Terre,0.09,8800,2.3,1.75,-10.0,1.2346,0.00012,True,True,15,4,80,True,True,1,True,0.35,True,1,1,1,1,1,1,habitable
+Azar Twilight,Naine rouge,0.01,4.8,10.0,0.6,Azar-III,Naine glacee,0.6,2300,0.05,0.05,-189.2,0.0278,2.2e-05,False,False,0,0,97,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Crystallis Reach,Naine jaune,1.0,6.8,1.0,0.1,Crystal-I,Lave,0.35,4500,0.62,0.75,184.5,8.1633,0.005788,False,False,0,88,11,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Crystallis Reach,Naine jaune,1.0,6.8,1.0,0.1,Crystal-II,Tellurique,0.9,6350,0.92,0.94,-5.1,1.2346,1.3e-05,False,True,21,1,77,True,True,1,True,0.3,True,1,1,1,1,0,1,habitable
+Crystallis Reach,Naine jaune,1.0,6.8,1.0,0.1,Crystal-III,Ocean,1.3,7050,1.15,1.08,-42.6,0.5917,1e-05,False,True,20,1,78,True,True,2,True,0.2,True,1,1,1,1,0,1,non_habitable
+Crystallis Reach,Naine jaune,1.0,6.8,1.0,0.1,Crystal-IV,Gazeuse,5.5,58000,280.0,2.35,-174.5,0.0331,3.3e-05,False,True,0,0,0,False,True,18,False,0.52,False,0,1,0,0,0,1,non_habitable
+Ember Drift,Naine rouge,0.01,3.2,10.0,0.6,Ember-I,Lave,0.03,3600,0.42,0.55,221.2,11.1111,0.288889,True,False,0,96,3,False,False,0,False,0.1,False,0,0,0,0,1,0,non_habitable
+Ember Drift,Naine rouge,0.01,3.2,10.0,0.6,Ember-II,Tellurique,0.1,5600,0.75,0.82,-18.9,1.0,9.6e-05,True,True,14,4,81,True,True,0,True,0.3,True,1,1,1,1,1,1,inconnue
+Ember Drift,Naine rouge,0.01,3.2,10.0,0.6,Ember-III,Naine glacee,0.7,2400,0.06,0.06,-195.4,0.0204,1.6e-05,False,False,0,0,97,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Solstice Veil,Naine orange,0.3,9.1,2.0,0.2,Solstice-I,Lave,0.1,3900,0.5,0.62,360.6,30.0,0.0585,True,False,0,91,8,False,False,0,False,0.1,False,0,0,0,0,1,0,non_habitable
+Solstice Veil,Naine orange,0.3,9.1,2.0,0.2,Solstice-II,Super-Terre,0.4,9100,2.4,1.82,18.9,1.875,3.7e-05,False,True,16,4,79,True,True,1,False,0.35,True,1,1,0,1,0,1,non_habitable
+Solstice Veil,Naine orange,0.3,9.1,2.0,0.2,Solstice-III,Ocean,0.6,6750,1.05,1.0,-21.9,0.8333,1.7e-05,False,True,22,1,76,True,True,2,True,0.2,True,1,1,1,1,0,1,inconnue
+Solstice Veil,Naine orange,0.3,9.1,2.0,0.2,Solstice-IV,Gazeuse,4.0,60000,295.0,2.45,-187.5,0.0187,3.8e-05,False,True,0,0,0,False,True,21,False,0.52,False,0,1,0,0,0,1,non_habitable
+Phantom Reach,Naine blanche,0.001,7.3,50.0,0.0,Phantom-I,Tellurique,0.03,5500,0.72,0.79,-12.1,1.1111,0.005285,True,True,5,10,82,False,False,0,True,0.3,True,0,0,1,1,1,1,non_habitable
+Phantom Reach,Naine blanche,0.001,7.3,50.0,0.0,Phantom-II,Naine glacee,0.15,3800,0.25,0.28,-178.7,0.0444,0.000182,True,False,0,2,95,False,False,1,False,0.7,False,0,0,0,0,1,0,non_habitable
+Vireon Expanse,Sous-geante,3.0,2.1,1.5,0.08,Vireon-I,Lave,0.5,5200,0.75,0.85,230.8,12.0,0.0117,False,True,0,87,12,False,False,0,False,0.1,False,0,0,0,0,0,1,non_habitable
+Vireon Expanse,Sous-geante,3.0,2.1,1.5,0.08,Vireon-II,Tellurique,1.2,6400,0.93,0.95,32.3,2.0833,3.1e-05,False,True,19,2,78,True,True,1,False,0.3,True,1,1,0,1,0,1,non_habitable
+Vireon Expanse,Sous-geante,3.0,2.1,1.5,0.08,Vireon-III,Super-Terre,1.9,9400,2.7,1.88,-34.8,0.831,1.2e-05,False,True,13,6,80,True,True,2,True,0.35,True,1,1,1,1,0,1,non_habitable
+Vireon Expanse,Sous-geante,3.0,2.1,1.5,0.08,Vireon-IV,Gazeuse,7.0,62000,305.0,2.5,-158.0,0.0612,9.2e-05,False,True,0,0,0,False,True,16,False,0.52,False,0,1,0,0,0,1,non_habitable
+Vireon Expanse,Sous-geante,3.0,2.1,1.5,0.08,Vireon-V,Naine glacee,20.0,2600,0.08,0.08,-212.6,0.0075,1e-05,False,False,0,0,99,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Solarius Rex,Naine jaune,1.0,4.8,1.0,0.1,Solarius-I,Lave,0.28,4100,0.55,0.65,238.6,12.7551,0.008291,False,False,0,87,12,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Solarius Rex,Naine jaune,1.0,4.8,1.0,0.1,Solarius-II,Tellurique,0.88,6250,0.91,0.93,-2.1,1.2913,1.3e-05,False,True,20,1,78,True,True,1,True,0.3,True,1,1,1,1,0,1,habitable
+Solarius Rex,Naine jaune,1.0,4.8,1.0,0.1,Solarius-III,Ocean,1.15,6900,1.08,1.03,-28.0,0.7561,1e-05,False,True,21,1,77,True,True,2,True,0.2,True,1,1,1,1,0,1,inconnue
+Solarius Rex,Naine jaune,1.0,4.8,1.0,0.1,Solarius-IV,Super-Terre,1.6,9300,2.5,1.82,-75.8,0.3906,1e-05,False,True,16,3,79,True,True,1,True,0.35,True,1,1,1,1,0,1,non_habitable
+Solarius Rex,Naine jaune,1.0,4.8,1.0,0.1,Solarius-V,Gazeuse,5.2,61000,290.0,2.4,-171.7,0.037,3.7e-05,False,True,0,0,0,False,True,19,False,0.52,False,0,1,0,0,0,1,non_habitable
+Aurum Spire,Naine jaune,1.0,6.3,1.0,0.1,Aurum-I,Lave,0.32,4300,0.6,0.7,205.5,9.7656,0.007617,False,False,0,89,10,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Aurum Spire,Naine jaune,1.0,6.3,1.0,0.1,Aurum-II,Ocean,1.05,7100,1.12,1.06,-16.6,0.907,1e-05,False,True,22,1,76,True,True,1,True,0.2,True,1,1,1,1,0,1,inconnue
+Aurum Spire,Naine jaune,1.0,6.3,1.0,0.1,Aurum-III,Tellurique,1.45,6100,0.87,0.89,-62.0,0.4756,1e-05,False,True,19,2,78,True,True,0,True,0.3,True,1,1,1,1,0,1,non_habitable
+Aurum Spire,Naine jaune,1.0,6.3,1.0,0.1,Aurum-IV,Gazeuse,4.8,59000,275.0,2.3,-167.5,0.0434,4.3e-05,False,True,0,0,0,False,True,17,False,0.52,False,0,1,0,0,0,1,non_habitable
+Calypso Dawn,Naine jaune,1.0,5.1,1.0,0.1,Calypso-I,Lave,0.22,3900,0.48,0.58,304.1,20.6612,0.020145,False,False,0,91,8,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Calypso Dawn,Naine jaune,1.0,5.1,1.0,0.1,Calypso-II,Tellurique,0.92,6400,0.96,0.97,-8.0,1.1815,1.2e-05,False,True,21,1,77,True,True,2,True,0.3,True,1,1,1,1,0,1,habitable
+Calypso Dawn,Naine jaune,1.0,5.1,1.0,0.1,Calypso-III,Ocean,1.25,7200,1.18,1.1,-38.0,0.64,1e-05,False,True,20,1,78,True,True,1,True,0.2,True,1,1,1,1,0,1,non_habitable
+Calypso Dawn,Naine jaune,1.0,5.1,1.0,0.1,Calypso-IV,Naine glacee,9.0,2700,0.08,0.08,-204.6,0.0123,1e-05,False,False,0,0,98,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Phoebe Light,Naine jaune,1.0,7.5,1.0,0.1,Phoebe-I,Tellurique,0.78,6100,0.85,0.88,14.8,1.6437,1.6e-05,False,True,19,2,78,True,True,1,True,0.3,True,1,1,1,1,0,1,inconnue
+Phoebe Light,Naine jaune,1.0,7.5,1.0,0.1,Phoebe-II,Ocean,1.1,6800,1.05,1.01,-22.5,0.8264,1e-05,False,True,21,1,77,True,True,2,True,0.2,True,1,1,1,1,0,1,inconnue
+Phoebe Light,Naine jaune,1.0,7.5,1.0,0.1,Phoebe-III,Super-Terre,1.7,9100,2.4,1.78,-81.7,0.346,1e-05,False,True,14,5,79,True,True,0,True,0.35,True,1,1,1,1,0,1,non_habitable
+Phoebe Light,Naine jaune,1.0,7.5,1.0,0.1,Phoebe-IV,Gazeuse,6.5,62000,310.0,2.5,-182.4,0.0237,2.4e-05,False,True,0,0,0,False,True,22,False,0.52,False,0,1,0,0,0,1,non_habitable
+Theron Gate,Naine jaune,1.0,3.8,1.0,0.1,Theron-I,Lave,0.18,3800,0.44,0.56,365.1,30.8642,0.040123,False,False,0,93,6,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Theron Gate,Naine jaune,1.0,3.8,1.0,0.1,Theron-II,Tellurique,0.95,6300,0.93,0.95,-12.3,1.108,1.1e-05,False,True,20,2,77,True,True,1,True,0.3,True,1,1,1,1,0,1,inconnue
+Theron Gate,Naine jaune,1.0,3.8,1.0,0.1,Theron-III,Ocean,1.3,7000,1.1,1.04,-42.6,0.5917,1e-05,False,True,22,1,76,True,True,2,True,0.2,True,1,1,1,1,0,1,non_habitable
+Theron Gate,Naine jaune,1.0,3.8,1.0,0.1,Theron-IV,Gazeuse,5.8,60000,285.0,2.35,-177.1,0.0297,3e-05,False,True,0,0,0,False,True,18,False,0.52,False,0,1,0,0,0,1,non_habitable
+Vesper Chain,Naine orange,0.3,4.7,2.0,0.2,Vesper-I,Lave,0.12,3800,0.5,0.6,305.3,20.8333,0.036111,True,False,0,90,9,False,False,0,False,0.1,False,0,0,0,0,1,0,non_habitable
+Vesper Chain,Naine orange,0.3,4.7,2.0,0.2,Vesper-II,Ocean,0.42,6700,1.0,0.97,27.1,1.7007,3.4e-05,False,True,21,1,77,True,True,1,True,0.2,True,1,1,1,1,0,1,inconnue
+Vesper Chain,Naine orange,0.3,4.7,2.0,0.2,Vesper-III,Tellurique,0.62,6000,0.84,0.88,-34.1,0.7804,1.5e-05,False,True,18,2,79,True,True,0,True,0.3,True,1,1,1,1,0,1,non_habitable
+Vesper Chain,Naine orange,0.3,4.7,2.0,0.2,Vesper-IV,Gazeuse,3.5,58000,270.0,2.3,-181.6,0.0245,4.9e-05,False,True,0,0,0,False,True,15,False,0.52,False,0,1,0,0,0,1,non_habitable
+Cerise Hollow,Naine orange,0.3,8.3,2.0,0.2,Cerise-I,Tellurique,0.35,5800,0.76,0.82,45.0,2.449,4.8e-05,False,True,17,3,79,True,True,1,False,0.3,True,1,1,0,1,0,1,non_habitable
+Cerise Hollow,Naine orange,0.3,8.3,2.0,0.2,Cerise-II,Ocean,0.52,6900,1.05,1.01,-3.3,1.1095,2.3e-05,False,True,22,1,76,True,True,2,True,0.2,True,1,1,1,1,0,1,habitable
+Cerise Hollow,Naine orange,0.3,8.3,2.0,0.2,Cerise-III,Super-Terre,0.78,9200,2.5,1.8,-64.0,0.4931,1e-05,False,True,15,4,79,True,True,1,True,0.35,True,1,1,1,1,0,1,non_habitable
+Cerise Hollow,Naine orange,0.3,8.3,2.0,0.2,Cerise-IV,Naine glacee,4.0,2600,0.07,0.07,-197.0,0.0187,1e-05,False,False,0,0,98,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Ambrel Crossing,Naine orange,0.3,5.9,2.0,0.2,Ambrel-I,Lave,0.08,3600,0.43,0.53,435.4,46.875,0.14625,True,False,0,94,5,False,False,0,False,0.1,False,0,0,0,0,1,0,non_habitable
+Ambrel Crossing,Naine orange,0.3,5.9,2.0,0.2,Ambrel-II,Tellurique,0.48,6200,0.9,0.92,-1.5,1.3021,2.6e-05,False,True,20,1,78,True,True,1,True,0.3,True,1,1,1,1,0,1,habitable
+Ambrel Crossing,Naine orange,0.3,5.9,2.0,0.2,Ambrel-III,Ocean,0.68,7000,1.1,1.04,-37.2,0.6488,1.3e-05,False,True,21,1,77,True,True,2,True,0.2,True,1,1,1,1,0,1,non_habitable
+Ambrel Crossing,Naine orange,0.3,5.9,2.0,0.2,Ambrel-IV,Gazeuse,3.8,59000,280.0,2.35,-185.3,0.0208,4.2e-05,False,True,0,0,0,False,True,16,False,0.52,False,0,1,0,0,0,1,non_habitable
+Dusken Arc,Naine orange,0.3,3.5,2.0,0.2,Dusken-I,Tellurique,0.45,5900,0.8,0.84,7.4,1.4815,2.9e-05,False,True,16,4,79,True,True,0,True,0.3,True,1,1,1,1,0,1,habitable
+Dusken Arc,Naine orange,0.3,3.5,2.0,0.2,Dusken-II,Super-Terre,0.65,9000,2.3,1.74,-44.0,0.7101,1.4e-05,False,True,13,6,80,True,True,1,True,0.35,True,1,1,1,1,0,1,non_habitable
+Dusken Arc,Naine orange,0.3,3.5,2.0,0.2,Dusken-III,Gazeuse,4.5,60000,290.0,2.4,-192.4,0.0148,3e-05,False,True,0,0,0,False,True,20,False,0.52,False,0,1,0,0,0,1,non_habitable
+Elysian Reach,Sous-geante,3.0,5.2,1.5,0.08,Elysian-I,Lave,0.35,4700,0.65,0.75,329.2,24.4898,0.026048,False,False,0,88,11,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Elysian Reach,Sous-geante,3.0,5.2,1.5,0.08,Elysian-II,Ocean,1.2,7100,1.15,1.08,42.7,2.0833,3.2e-05,False,True,22,1,76,True,True,2,False,0.2,True,1,1,0,1,0,1,non_habitable
+Elysian Reach,Sous-geante,3.0,5.2,1.5,0.08,Elysian-III,Tellurique,1.7,6300,0.92,0.94,-16.5,1.0381,1.6e-05,False,True,19,2,78,True,True,1,True,0.3,True,1,1,1,1,0,1,inconnue
+Elysian Reach,Sous-geante,3.0,5.2,1.5,0.08,Elysian-IV,Super-Terre,2.4,9500,2.8,1.9,-61.1,0.5208,1e-05,False,True,12,6,80,True,True,1,True,0.35,True,1,1,1,1,0,1,non_habitable
+Elysian Reach,Sous-geante,3.0,5.2,1.5,0.08,Elysian-V,Gazeuse,7.5,63000,320.0,2.55,-161.9,0.0533,8e-05,False,True,0,0,0,False,True,23,False,0.52,False,0,1,0,0,0,1,non_habitable
+Novara Path,Sous-geante,3.0,4.1,1.5,0.08,Novara-I,Lave,0.45,5100,0.72,0.82,258.1,14.8148,0.013333,False,True,0,86,13,False,False,0,False,0.1,False,0,0,0,0,0,1,non_habitable
+Novara Path,Sous-geante,3.0,4.1,1.5,0.08,Novara-II,Tellurique,1.15,6450,0.94,0.96,38.9,2.2684,3.4e-05,False,True,20,1,78,True,True,1,False,0.3,True,1,1,0,1,0,1,non_habitable
+Novara Path,Sous-geante,3.0,4.1,1.5,0.08,Novara-III,Ocean,1.65,7250,1.22,1.12,-3.8,1.1019,1.7e-05,False,True,21,1,77,True,True,2,True,0.2,True,1,1,1,1,0,1,habitable
+Novara Path,Sous-geante,3.0,4.1,1.5,0.08,Novara-IV,Gazeuse,6.2,58000,275.0,2.3,-150.8,0.078,0.000117,False,True,0,0,0,False,True,17,False,0.52,False,0,1,0,0,0,1,non_habitable
+Tethis Grove,Sous-geante,3.0,7.3,1.5,0.08,Tethis-I,Tellurique,1.0,6200,0.9,0.92,61.5,3.0,4.5e-05,False,True,19,2,78,True,True,1,False,0.3,True,1,1,0,1,0,1,non_habitable
+Tethis Grove,Sous-geante,3.0,7.3,1.5,0.08,Tethis-II,Ocean,1.4,7100,1.18,1.1,19.3,1.5306,2.4e-05,False,True,23,1,75,True,True,2,True,0.2,True,1,1,1,1,0,1,inconnue
+Tethis Grove,Sous-geante,3.0,7.3,1.5,0.08,Tethis-III,Super-Terre,2.1,9600,2.9,1.93,-46.5,0.6803,1e-05,False,True,10,8,80,True,True,1,True,0.35,True,1,1,1,1,0,1,non_habitable
+Tethis Grove,Sous-geante,3.0,7.3,1.5,0.08,Tethis-IV,Gazeuse,7.8,61000,300.0,2.45,-164.1,0.0493,7.4e-05,False,True,0,0,0,False,True,21,False,0.52,False,0,1,0,0,0,1,non_habitable
+Cinderfall,Naine rouge,0.01,9.3,10.0,0.6,Cinder-I,Lave,0.04,3500,0.44,0.55,155.0,6.25,0.0975,True,False,0,94,5,False,False,0,False,0.1,False,0,0,0,0,1,0,non_habitable
+Cinderfall,Naine rouge,0.01,9.3,10.0,0.6,Cinder-II,Tellurique,0.12,5700,0.78,0.84,-41.0,0.6944,6.9e-05,True,True,18,2,79,True,True,0,True,0.3,True,1,1,1,1,1,1,non_habitable
+Cinderfall,Naine rouge,0.01,9.3,10.0,0.6,Cinder-III,Ocean,0.18,6600,1.0,0.98,-77.2,0.3086,3.1e-05,True,True,21,1,77,True,True,1,False,0.2,True,1,1,0,1,1,1,non_habitable
+Cinderfall,Naine rouge,0.01,9.3,10.0,0.6,Cinder-IV,Naine glacee,1.2,2300,0.05,0.05,-213.8,0.0069,1e-05,False,False,0,0,97,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Redhaven,Naine rouge,0.01,7.8,10.0,0.6,Redhaven-I,Tellurique,0.09,5800,0.81,0.86,-5.1,1.2346,0.000122,True,True,17,3,79,True,True,1,True,0.3,True,1,1,1,1,1,1,habitable
+Redhaven,Naine rouge,0.01,7.8,10.0,0.6,Redhaven-II,Super-Terre,0.16,8700,2.2,1.72,-75.8,0.3906,3.8e-05,True,True,13,5,80,True,True,1,True,0.35,True,1,1,1,1,1,1,non_habitable
+Redhaven,Naine rouge,0.01,7.8,10.0,0.6,Redhaven-III,Naine glacee,1.0,2200,0.04,0.04,-208.1,0.01,1e-05,False,False,0,1,96,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Scarlet Rim,Naine rouge,0.01,11.5,10.0,0.6,Scarlet-I,Lave,0.03,3400,0.4,0.52,221.2,11.1111,0.216667,True,False,0,95,4,False,False,0,False,0.1,False,0,0,0,0,1,0,non_habitable
+Scarlet Rim,Naine rouge,0.01,11.5,10.0,0.6,Scarlet-II,Ocean,0.1,6500,0.95,0.95,-10.2,1.0,0.000101,True,True,20,2,77,True,True,1,True,0.2,True,1,1,1,1,1,1,inconnue
+Scarlet Rim,Naine rouge,0.01,11.5,10.0,0.6,Scarlet-III,Tellurique,0.15,5900,0.82,0.87,-65.5,0.4444,4.4e-05,True,True,18,2,79,True,True,0,True,0.3,True,1,1,1,1,1,1,non_habitable
+Scarlet Rim,Naine rouge,0.01,11.5,10.0,0.6,Scarlet-IV,Naine glacee,0.9,2100,0.03,0.04,-204.6,0.0123,1e-05,False,False,0,0,98,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Ignis Minor,Naine rouge,0.01,5.5,10.0,0.6,Ignis-I,Lave,0.05,3700,0.46,0.56,109.8,4.0,0.052,True,True,0,93,6,False,False,0,False,0.1,False,0,0,0,0,1,1,non_habitable
+Ignis Minor,Naine rouge,0.01,5.5,10.0,0.6,Ignis-II,Super-Terre,0.13,8600,2.1,1.7,-54.2,0.5917,5.8e-05,True,True,14,5,80,True,True,1,True,0.35,True,1,1,1,1,1,1,non_habitable
+Ignis Minor,Naine rouge,0.01,5.5,10.0,0.6,Ignis-III,Tellurique,0.2,5800,0.8,0.84,-93.3,0.25,2.4e-05,True,True,16,3,80,True,True,0,False,0.3,True,1,1,0,1,1,1,non_habitable
+Ambiguous Veil,Naine jaune,1.0,4.5,1.0,0.1,AV-I,Lave,0.3,4200,0.58,0.68,221.2,11.1111,0.007879,False,False,0,88,11,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Ambiguous Veil,Naine jaune,1.0,4.5,1.0,0.1,AV-II,Tellurique,1.0,6300,0.9,0.92,-18.9,1.0,1e-05,False,True,8,4,80,True,True,1,True,0.3,True,1,1,1,1,0,1,inconnue
+Ambiguous Veil,Naine jaune,1.0,4.5,1.0,0.1,AV-III,Ocean,1.35,7000,1.1,1.04,-46.9,0.5487,1e-05,False,True,12,3,77,True,True,2,True,0.2,True,1,1,1,1,0,1,non_habitable
+Ambiguous Veil,Naine jaune,1.0,4.5,1.0,0.1,AV-IV,Gazeuse,5.0,60000,295.0,2.4,-169.7,0.04,4e-05,False,True,0,0,0,False,True,18,False,0.52,False,0,1,0,0,0,1,non_habitable
+Twilight Margin,Naine orange,0.3,6.5,2.0,0.2,TM-I,Tellurique,0.38,5700,0.75,0.8,32.1,2.0776,4.1e-05,False,True,10,3,80,True,True,0,False,0.3,True,1,1,0,1,0,1,non_habitable
+Twilight Margin,Naine orange,0.3,6.5,2.0,0.2,TM-II,Super-Terre,0.55,9000,2.3,1.75,-24.1,0.9917,1.9e-05,False,True,7,7,80,True,True,1,True,0.35,True,1,1,1,1,0,1,inconnue
+Twilight Margin,Naine orange,0.3,6.5,2.0,0.2,TM-III,Ocean,0.72,6800,1.05,1.01,-43.8,0.5787,1.2e-05,False,True,20,1,77,True,True,2,True,0.2,True,1,1,1,1,0,1,non_habitable
+Twilight Margin,Naine orange,0.3,6.5,2.0,0.2,TM-IV,Naine glacee,5.0,2500,0.06,0.06,-205.1,0.012,1e-05,False,False,0,0,99,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Borderland,Sous-geante,3.0,3.5,1.5,0.08,Border-I,Tellurique,1.1,6100,0.87,0.9,45.9,2.4793,3.6e-05,False,True,11,4,80,True,True,1,False,0.3,True,1,1,0,1,0,1,non_habitable
+Borderland,Sous-geante,3.0,3.5,1.5,0.08,Border-II,Ocean,1.55,7000,1.12,1.06,4.8,1.2487,1.9e-05,False,True,21,1,77,True,True,1,True,0.2,True,1,1,1,1,0,1,habitable
+Borderland,Sous-geante,3.0,3.5,1.5,0.08,Border-III,Super-Terre,2.0,9200,2.6,1.85,-40.9,0.75,1.1e-05,False,True,9,8,80,True,True,0,True,0.35,True,1,1,1,1,0,1,non_habitable
+Borderland,Sous-geante,3.0,3.5,1.5,0.08,Border-IV,Gazeuse,7.2,60000,285.0,2.35,-159.7,0.0579,8.7e-05,False,True,0,0,0,False,True,20,False,0.52,False,0,1,0,0,0,1,non_habitable
+Penumbra Zone,Naine rouge,0.01,8.1,10.0,0.6,Penumbra-I,Tellurique,0.11,5700,0.77,0.82,-30.7,0.8264,8.1e-05,True,True,9,5,80,True,True,0,True,0.3,True,1,1,1,1,1,1,non_habitable
+Penumbra Zone,Naine rouge,0.01,8.1,10.0,0.6,Penumbra-II,Ocean,0.16,6600,1.0,0.98,-65.3,0.3906,3.9e-05,True,True,6,4,78,True,True,1,True,0.2,True,1,1,1,1,1,1,non_habitable
+Penumbra Zone,Naine rouge,0.01,8.1,10.0,0.6,Penumbra-III,Naine glacee,0.8,2200,0.04,0.05,-200.4,0.0156,1.3e-05,False,False,0,0,97,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Inferno Basin,Naine jaune,1.0,2.5,1.0,0.1,Inferno-I,Lave,0.15,4000,0.5,0.6,426.0,44.4444,0.049524,False,False,0,92,7,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Inferno Basin,Naine jaune,1.0,2.5,1.0,0.1,Inferno-II,Tellurique,0.5,5800,0.78,0.83,86.5,4.0,0.001733,False,True,0,80,18,False,False,0,False,0.3,True,0,0,0,1,0,1,non_habitable
+Inferno Basin,Naine jaune,1.0,2.5,1.0,0.1,Inferno-III,Gazeuse,3.5,59000,280.0,2.35,-149.5,0.0816,8.2e-05,False,True,0,0,0,False,True,16,False,0.52,False,0,1,0,0,0,1,non_habitable
+Frostbound,Naine orange,0.3,7.0,2.0,0.2,Frost-I,Naine glacee,0.05,3200,0.15,0.2,407.8,120.0,0.019915,True,False,0,3,94,False,False,0,False,0.7,False,0,0,0,0,1,0,non_habitable
+Frostbound,Naine orange,0.3,7.0,2.0,0.2,Frost-II,Tellurique,2.5,6000,0.82,0.86,-154.1,0.048,1e-05,False,True,5,2,90,False,False,0,False,0.3,True,0,0,0,1,0,1,non_habitable
+Frostbound,Naine orange,0.3,7.0,2.0,0.2,Frost-III,Naine glacee,8.0,2800,0.09,0.09,-219.3,0.0047,1e-05,False,False,0,0,99,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Toxic Cloud,Naine jaune,1.0,5.8,1.0,0.1,Toxic-I,Lave,0.25,4100,0.52,0.63,268.4,16.0,0.013867,False,False,0,90,9,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Toxic Cloud,Naine jaune,1.0,5.8,1.0,0.1,Toxic-II,Tellurique,0.85,6200,0.88,0.91,2.7,1.3841,0.00045,False,True,0,75,24,False,False,0,True,0.3,True,0,0,1,1,0,1,non_habitable
+Toxic Cloud,Naine jaune,1.0,5.8,1.0,0.1,Toxic-III,Ocean,1.2,6900,1.05,1.02,-33.1,0.6944,1e-05,False,True,3,15,75,True,True,1,True,0.2,True,1,1,1,1,0,1,non_habitable
+Toxic Cloud,Naine jaune,1.0,5.8,1.0,0.1,Toxic-IV,Gazeuse,5.5,61000,295.0,2.42,-174.5,0.0331,3.3e-05,False,True,0,0,0,False,True,19,False,0.52,False,0,1,0,0,0,1,non_habitable
+Dusty Fringe,Naine orange,0.3,4.2,2.0,0.2,Dusty-I,Tellurique,0.3,5400,0.68,0.75,70.4,3.3333,0.0013,False,True,1,55,40,False,False,0,False,0.3,True,0,0,0,1,0,1,non_habitable
+Dusty Fringe,Naine orange,0.3,4.2,2.0,0.2,Dusty-II,Tellurique,0.55,5900,0.8,0.84,-19.4,0.9917,0.000198,False,True,14,6,78,True,False,0,True,0.3,True,1,0,1,1,0,1,inconnue
+Dusty Fringe,Naine orange,0.3,4.2,2.0,0.2,Dusty-III,Gazeuse,3.2,57000,265.0,2.25,-177.4,0.0293,5.9e-05,False,True,0,0,0,False,True,14,False,0.52,False,0,1,0,0,0,1,non_habitable
+Gravel Storm,Sous-geante,3.0,2.8,1.5,0.08,Gravel-I,Lave,0.28,4500,0.62,0.72,400.3,38.2653,0.034439,False,False,0,86,13,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Gravel Storm,Sous-geante,3.0,2.8,1.5,0.08,Gravel-II,Super-Terre,0.95,8800,2.3,1.74,63.9,3.3241,0.001389,False,True,0,70,28,False,False,0,False,0.35,True,0,0,0,1,0,1,non_habitable
+Gravel Storm,Sous-geante,3.0,2.8,1.5,0.08,Gravel-III,Gazeuse,5.0,60000,285.0,2.38,-137.0,0.12,0.00018,False,True,0,0,0,False,True,18,False,0.52,False,0,1,0,0,0,1,non_habitable
+Null Void,Geante bleue,50000.0,0.02,100000.0,0.0,Null-I,Lave,10.0,6500,1.2,1.1,1007.3,500.0,15600.0,False,True,0,60,25,False,False,0,False,0.1,False,0,0,0,0,0,1,non_habitable
+Null Void,Geante bleue,50000.0,0.02,100000.0,0.0,Null-II,Gazeuse,100.0,72000,450.0,3.2,72.9,5.0,500.0,False,True,0,0,0,False,True,35,False,0.52,False,0,1,0,0,0,1,non_habitable
+Iron Tomb,Geante rouge,1000.0,7.5,5.0,0.05,Iron-I,Lave,6.0,6800,1.2,1.15,348.5,27.7778,0.057018,False,True,0,78,19,False,False,0,False,0.1,False,0,0,0,0,0,1,non_habitable
+Iron Tomb,Geante rouge,1000.0,7.5,5.0,0.05,Iron-II,Gazeuse,18.0,63000,310.0,2.48,33.6,3.0864,0.015432,False,True,0,0,0,False,True,26,False,0.52,False,0,1,0,0,0,1,non_habitable
+Iron Tomb,Geante rouge,1000.0,7.5,5.0,0.05,Iron-III,Naine glacee,50.0,3000,0.11,0.11,-109.5,0.4,0.000159,False,False,0,0,98,False,False,1,True,0.7,False,0,0,1,0,0,0,non_habitable
+Static Relic,Naine blanche,0.001,5.2,50.0,0.0,Static-I,Naine glacee,0.015,3200,0.16,0.2,25.6,4.4444,0.018638,True,False,0,3,93,False,False,0,False,0.7,False,0,0,0,0,1,0,non_habitable
+Static Relic,Naine blanche,0.001,5.2,50.0,0.0,Static-II,Tellurique,0.06,5600,0.75,0.81,-88.5,0.2778,0.001165,True,True,0,4,93,False,False,0,False,0.3,True,0,0,0,1,1,1,non_habitable
+Static Relic,Naine blanche,0.001,5.2,50.0,0.0,Static-III,Naine glacee,0.3,3800,0.24,0.29,-206.4,0.0111,4.5e-05,True,False,0,1,96,False,False,1,False,0.7,False,0,0,0,0,1,0,non_habitable
+Cascade Blue,Naine jaune,1.0,8.1,1.0,0.1,Cascade-I,Lave,0.38,4400,0.63,0.73,166.1,6.9252,0.004501,False,False,0,87,12,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Cascade Blue,Naine jaune,1.0,8.1,1.0,0.1,Cascade-II,Tellurique,0.97,6350,0.93,0.94,-15.0,1.0628,1.1e-05,False,True,21,1,77,True,True,1,True,0.3,True,1,1,1,1,0,1,inconnue
+Cascade Blue,Naine jaune,1.0,8.1,1.0,0.1,Cascade-III,Ocean,1.28,7050,1.14,1.07,-40.8,0.6104,1e-05,False,True,20,1,78,True,True,2,True,0.2,True,1,1,1,1,0,1,non_habitable
+Cascade Blue,Naine jaune,1.0,8.1,1.0,0.1,Cascade-IV,Super-Terre,1.85,9400,2.7,1.87,-89.6,0.2922,1e-05,False,True,11,7,80,True,True,1,False,0.35,True,1,1,0,1,0,1,non_habitable
+Cascade Blue,Naine jaune,1.0,8.1,1.0,0.1,Cascade-V,Gazeuse,6.0,62000,300.0,2.45,-178.7,0.0278,2.8e-05,False,True,0,0,0,False,True,21,False,0.52,False,0,1,0,0,0,1,non_habitable
+Palidor Watch,Naine orange,0.3,7.6,2.0,0.2,Palidor-I,Lave,0.11,3700,0.47,0.57,331.1,24.7934,0.055254,True,False,0,92,7,False,False,0,False,0.1,False,0,0,0,0,1,0,non_habitable
+Palidor Watch,Naine orange,0.3,7.6,2.0,0.2,Palidor-II,Ocean,0.43,6750,1.02,0.99,23.6,1.6225,3.3e-05,False,True,22,1,76,True,True,1,True,0.2,True,1,1,1,1,0,1,inconnue
+Palidor Watch,Naine orange,0.3,7.6,2.0,0.2,Palidor-III,Tellurique,0.62,6050,0.85,0.88,-34.1,0.7804,1.5e-05,False,True,18,2,79,True,True,0,True,0.3,True,1,1,1,1,0,1,non_habitable
+Palidor Watch,Naine orange,0.3,7.6,2.0,0.2,Palidor-IV,Super-Terre,0.9,9100,2.4,1.79,-78.4,0.3704,1e-05,False,True,10,6,82,True,True,1,True,0.35,True,1,1,1,1,0,1,non_habitable
+Palidor Watch,Naine orange,0.3,7.6,2.0,0.2,Palidor-V,Gazeuse,4.5,60000,288.0,2.38,-192.4,0.0148,3e-05,False,True,0,0,0,False,True,17,False,0.52,False,0,1,0,0,0,1,non_habitable
+Halcyon Deep,Sous-geante,3.0,6.1,1.5,0.08,Halcyon-I,Lave,0.42,4900,0.7,0.8,276.7,17.0068,0.013265,False,True,0,84,15,False,False,0,False,0.1,False,0,0,0,0,0,1,non_habitable
+Halcyon Deep,Sous-geante,3.0,6.1,1.5,0.08,Halcyon-II,Tellurique,1.08,6300,0.91,0.93,48.9,2.572,3.9e-05,False,True,20,2,77,True,True,1,False,0.3,True,1,1,0,1,0,1,non_habitable
+Halcyon Deep,Sous-geante,3.0,6.1,1.5,0.08,Halcyon-III,Ocean,1.52,7150,1.2,1.11,7.5,1.2985,2e-05,False,True,22,1,76,True,True,2,True,0.2,True,1,1,1,1,0,1,habitable
+Halcyon Deep,Sous-geante,3.0,6.1,1.5,0.08,Halcyon-IV,Gazeuse,6.8,59000,282.0,2.33,-156.4,0.0649,9.7e-05,False,True,0,0,0,False,True,19,False,0.52,False,0,1,0,0,0,1,non_habitable
+Halcyon Deep,Sous-geante,3.0,6.1,1.5,0.08,Halcyon-V,Naine glacee,16.0,2650,0.08,0.08,-205.5,0.0117,1e-05,False,False,0,0,99,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable
+Zephyr Cradle,Naine jaune,1.0,5.7,1.0,0.1,Zephyr-I,Lave,0.26,4050,0.53,0.64,257.9,14.7929,0.011538,False,False,0,89,10,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Zephyr Cradle,Naine jaune,1.0,5.7,1.0,0.1,Zephyr-II,Ocean,0.98,6950,1.08,1.04,-7.6,1.0412,1.1e-05,False,True,22,1,76,True,True,2,True,0.2,True,1,1,1,1,0,1,habitable
+Zephyr Cradle,Naine jaune,1.0,5.7,1.0,0.1,Zephyr-III,Tellurique,1.32,6200,0.9,0.91,-51.8,0.5739,1e-05,False,True,19,2,78,True,True,1,True,0.3,True,1,1,1,1,0,1,non_habitable
+Zephyr Cradle,Naine jaune,1.0,5.7,1.0,0.1,Zephyr-IV,Super-Terre,1.9,9300,2.65,1.86,-92.1,0.277,1e-05,False,True,8,9,81,True,True,0,False,0.35,True,1,1,0,1,0,1,non_habitable
+Zephyr Cradle,Naine jaune,1.0,5.7,1.0,0.1,Zephyr-V,Gazeuse,5.8,61000,295.0,2.42,-177.1,0.0297,3e-05,False,True,0,0,0,False,True,20,False,0.52,False,0,1,0,0,0,1,non_habitable
+Opal Sanctum,Naine orange,0.3,9.5,2.0,0.2,Opal-I,Tellurique,0.38,5750,0.77,0.82,32.1,2.0776,4.1e-05,False,True,18,2,79,True,True,1,False,0.3,True,1,1,0,1,0,1,non_habitable
+Opal Sanctum,Naine orange,0.3,9.5,2.0,0.2,Opal-II,Ocean,0.53,6850,1.04,1.01,-5.9,1.068,2.2e-05,False,True,21,1,77,True,True,2,True,0.2,True,1,1,1,1,0,1,habitable
+Opal Sanctum,Naine orange,0.3,9.5,2.0,0.2,Opal-III,Super-Terre,0.75,9050,2.35,1.76,-59.8,0.5333,1.1e-05,False,True,16,4,79,True,True,1,True,0.35,True,1,1,1,1,0,1,non_habitable
+Opal Sanctum,Naine orange,0.3,9.5,2.0,0.2,Opal-IV,Gazeuse,4.2,60500,292.0,2.41,-189.6,0.017,3.4e-05,False,True,0,0,0,False,True,18,False,0.52,False,0,1,0,0,0,1,non_habitable
+Marble Watch,Sous-geante,3.0,5.5,1.5,0.08,Marble-I,Lave,0.38,4750,0.68,0.77,304.9,20.7756,0.017362,False,False,0,85,14,False,False,0,False,0.1,False,0,0,0,0,0,0,non_habitable
+Marble Watch,Sous-geante,3.0,5.5,1.5,0.08,Marble-II,Ocean,1.18,7050,1.16,1.09,45.4,2.1546,3.3e-05,False,True,22,1,76,True,True,2,False,0.2,True,1,1,0,1,0,1,non_habitable
+Marble Watch,Sous-geante,3.0,5.5,1.5,0.08,Marble-III,Tellurique,1.62,6280,0.91,0.93,-10.2,1.1431,1.7e-05,False,True,19,2,78,True,True,1,True,0.3,True,1,1,1,1,0,1,inconnue
+Marble Watch,Sous-geante,3.0,5.5,1.5,0.08,Marble-IV,Gazeuse,6.5,62000,308.0,2.48,-153.7,0.071,0.000107,False,True,0,0,0,False,True,22,False,0.52,False,0,1,0,0,0,1,non_habitable
+Marble Watch,Sous-geante,3.0,5.5,1.5,0.08,Marble-V,Naine glacee,17.0,2600,0.08,0.08,-207.5,0.0104,1e-05,False,False,0,0,99,False,False,0,False,0.7,False,0,0,0,0,0,0,non_habitable

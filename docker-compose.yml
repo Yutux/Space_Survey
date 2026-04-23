@@ -1,0 +1,198 @@
+version: "3.8"
+
+services:
+
+  # ─── ZOOKEEPER ───────────────────────────────────────────────
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.4.0
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    networks:
+      - space-net
+
+  # ─── KAFKA ───────────────────────────────────────────────────
+  kafka:
+    image: confluentinc/cp-kafka:7.4.0
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+      - "29092:29092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: INTERNAL://0.0.0.0:29092,EXTERNAL://0.0.0.0:9092
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:29092,EXTERNAL://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_LOG_RETENTION_HOURS: 24
+    networks:
+      - space-net
+
+  # ─── HADOOP NAMENODE ─────────────────────────────────────────
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenode
+    restart: always
+    ports:
+      - "9870:9870"
+      - "9000:9000"
+    env_file:
+      - hadoop.env
+    environment:
+      - CLUSTER_NAME=space-cluster
+    volumes:
+      - hadoop_namenode:/hadoop/dfs/name
+    networks:
+      - space-net
+
+  # ─── HADOOP DATANODE ─────────────────────────────────────────
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode
+    restart: always
+    depends_on:
+      - namenode
+    env_file:
+      - hadoop.env
+    volumes:
+      - hadoop_datanode:/hadoop/dfs/data
+    networks:
+      - space-net
+
+  # ─── MINIO ───────────────────────────────────────────────────
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    ports:
+      - "9090:9090"   # API S3
+      - "9001:9001"   # Console Web
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    command: server /data --address ":9090" --console-address ":9001"
+    volumes:
+      - minio_data:/data
+    networks:
+      - space-net
+
+  # ─── MINIO INIT ──────────────────────────────────────────────
+  minio-init:
+    image: minio/mc:latest
+    container_name: minio-init
+    depends_on:
+      - minio
+    entrypoint: >
+      bash -c "
+        sleep 5 &&
+        mc alias set local http://minio:9090 minioadmin minioadmin &&
+        mc mb --ignore-existing local/space-streaming &&
+        mc mb --ignore-existing local/space-batch &&
+        mc mb --ignore-existing local/space-models &&
+        mc mb --ignore-existing local/space-raw &&
+        echo 'Buckets MinIO créés !'
+      "
+    networks:
+      - space-net
+
+  # ─── MONGODB ─────────────────────────────────────────────────
+  mongodb:
+    image: mongo:7.0
+    container_name: mongodb
+    restart: always
+    ports:
+      - "27017:27017"   # accès depuis le PC hôte
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+      MONGO_INITDB_DATABASE: space_pipeline
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - space-net
+
+  # ─── MONGO EXPRESS (interface web MongoDB) ───────────────────
+  mongo-express:
+    image: mongo-express:1.0.2
+    container_name: mongo-express
+    restart: always
+    depends_on:
+      - mongodb
+    ports:
+      - "8081:8081"   # interface web → http://localhost:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: mongoadmin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: mongoadmin
+      ME_CONFIG_MONGODB_URL: mongodb://mongoadmin:mongoadmin@mongodb:27017/
+      ME_CONFIG_BASICAUTH: "false"
+    networks:
+      - space-net
+
+  # ─── SPARK MASTER ────────────────────────────────────────────
+  spark-master:
+    image: apache/spark:3.5.3-python3
+    container_name: spark-master
+    user: root
+    command: >
+      bash -c "pip install -q numpy pandas scikit-learn pymongo 2>/dev/null && 
+      /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+      --host spark-master --port 7077 --webui-port 8080"
+    environment:
+      - SPARK_NO_DAEMONIZE=true
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    volumes:
+      - ./app:/opt/spark/app
+    networks:
+      - space-net
+
+  # ─── SPARK WORKER ────────────────────────────────────────────
+  spark-worker:
+    image: apache/spark:3.5.3-python3
+    container_name: spark-worker
+    user: root
+    command: >
+      bash -c "pip install -q numpy pandas scikit-learn pymongo 2>/dev/null && 
+      /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker
+      --cores 2 --memory 2G spark://spark-master:7077"
+    environment:
+      - SPARK_NO_DAEMONIZE=true
+    depends_on:
+      - spark-master
+    volumes:
+      - ./app:/opt/spark/app
+    networks:
+      - space-net
+
+  # ─── APP (Producer Python) ───────────────────────────────────
+  app:
+    image: python:3.10-slim
+    container_name: space-app
+    depends_on:
+      - kafka
+      - namenode
+      - minio
+      - mongodb
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: >
+      bash -c "pip install kafka-python pandas numpy scikit-learn minio pymongo requests && tail -f /dev/null"
+    networks:
+      - space-net
+
+volumes:
+  hadoop_namenode:
+  hadoop_datanode:
+  minio_data:
+  mongodb_data:
+
+networks:
+  space-net:
+    driver: bridge

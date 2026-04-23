@@ -1,0 +1,59 @@
+system_name,star_type,star_luminosity,star_temp_k,star_mass_solar,star_age_gy,star_lifespan_gy,star_color,xuv_factor,flare_risk,hz_inner_au,hz_outer_au
+Aeloria Prime,Naine jaune,1.0,5778,1.0,4.2,10.0,jaune,1.0,0.1,0.75,1.77
+Vexar System,Naine rouge,0.01,3200,0.3,8.5,100.0,rouge,10.0,0.6,0.075,0.177
+Drakon Nebula,Geante bleue,50000.0,30000,20.0,0.05,0.01,bleue,100000.0,0.0,167.7051,395.784
+Luminos Cluster,Naine orange,0.3,4500,0.7,6.1,30.0,orange,2.0,0.2,0.4108,0.9695
+Stygion Void,Naine blanche,0.001,25000,0.6,12.0,999.0,blanche,50.0,0.0,0.0237,0.056
+Verdantis Alpha,Sous-geante,3.0,6000,1.5,3.8,5.0,jaune,1.5,0.08,1.299,3.0657
+Ashenveil Binary,Geante rouge,1000.0,3700,5.0,9.8,0.1,rouge,5.0,0.05,23.7171,55.9723
+Kepler Nova,Naine jaune,1.0,5778,1.0,5.5,10.0,jaune,1.0,0.1,0.75,1.77
+Orion Belt,Naine orange,0.3,4500,0.7,7.2,30.0,orange,2.0,0.2,0.4108,0.9695
+Solara Minor,Sous-geante,3.0,6000,1.5,4.5,5.0,jaune,1.5,0.08,1.299,3.0657
+Cygnus Deep,Naine rouge,0.01,3200,0.3,6.0,100.0,rouge,10.0,0.6,0.075,0.177
+Arcturus Prime,Geante rouge,1000.0,3700,5.0,8.0,0.1,rouge,5.0,0.05,23.7171,55.9723
+Helios Secundus,Naine jaune,1.0,5778,1.0,3.1,10.0,jaune,1.0,0.1,0.75,1.77
+Proxima Obscura,Naine rouge,0.01,3200,0.3,10.2,100.0,rouge,10.0,0.6,0.075,0.177
+Tauri Expanse,Naine orange,0.3,4500,0.7,5.3,30.0,orange,2.0,0.2,0.4108,0.9695
+Meridian Cross,Sous-geante,3.0,6000,1.5,6.7,5.0,jaune,1.5,0.08,1.299,3.0657
+Ferox Cluster,Naine blanche,0.001,25000,0.6,9.5,999.0,blanche,50.0,0.0,0.0237,0.056
+Nova Serpentis,Naine jaune,1.0,5778,1.0,7.8,10.0,jaune,1.0,0.1,0.75,1.77
+Azar Twilight,Naine rouge,0.01,3200,0.3,4.8,100.0,rouge,10.0,0.6,0.075,0.177
+Crystallis Reach,Naine jaune,1.0,5778,1.0,6.8,10.0,jaune,1.0,0.1,0.75,1.77
+Ember Drift,Naine rouge,0.01,3200,0.3,3.2,100.0,rouge,10.0,0.6,0.075,0.177
+Solstice Veil,Naine orange,0.3,4500,0.7,9.1,30.0,orange,2.0,0.2,0.4108,0.9695
+Phantom Reach,Naine blanche,0.001,25000,0.6,7.3,999.0,blanche,50.0,0.0,0.0237,0.056
+Vireon Expanse,Sous-geante,3.0,6000,1.5,2.1,5.0,jaune,1.5,0.08,1.299,3.0657
+Solarius Rex,Naine jaune,1.0,5778,1.0,4.8,10.0,jaune,1.0,0.1,0.75,1.77
+Aurum Spire,Naine jaune,1.0,5778,1.0,6.3,10.0,jaune,1.0,0.1,0.75,1.77
+Calypso Dawn,Naine jaune,1.0,5778,1.0,5.1,10.0,jaune,1.0,0.1,0.75,1.77
+Phoebe Light,Naine jaune,1.0,5778,1.0,7.5,10.0,jaune,1.0,0.1,0.75,1.77
+Theron Gate,Naine jaune,1.0,5778,1.0,3.8,10.0,jaune,1.0,0.1,0.75,1.77
+Vesper Chain,Naine orange,0.3,4500,0.7,4.7,30.0,orange,2.0,0.2,0.4108,0.9695
+Cerise Hollow,Naine orange,0.3,4500,0.7,8.3,30.0,orange,2.0,0.2,0.4108,0.9695
+Ambrel Crossing,Naine orange,0.3,4500,0.7,5.9,30.0,orange,2.0,0.2,0.4108,0.9695
+Dusken Arc,Naine orange,0.3,4500,0.7,3.5,30.0,orange,2.0,0.2,0.4108,0.9695
+Elysian Reach,Sous-geante,3.0,6000,1.5,5.2,5.0,jaune,1.5,0.08,1.299,3.0657
+Novara Path,Sous-geante,3.0,6000,1.5,4.1,5.0,jaune,1.5,0.08,1.299,3.0657
+Tethis Grove,Sous-geante,3.0,6000,1.5,7.3,5.0,jaune,1.5,0.08,1.299,3.0657
+Cinderfall,Naine rouge,0.01,3200,0.3,9.3,100.0,rouge,10.0,0.6,0.075,0.177
+Redhaven,Naine rouge,0.01,3200,0.3,7.8,100.0,rouge,10.0,0.6,0.075,0.177
+Scarlet Rim,Naine rouge,0.01,3200,0.3,11.5,100.0,rouge,10.0,0.6,0.075,0.177
+Ignis Minor,Naine rouge,0.01,3200,0.3,5.5,100.0,rouge,10.0,0.6,0.075,0.177
+Ambiguous Veil,Naine jaune,1.0,5778,1.0,4.5,10.0,jaune,1.0,0.1,0.75,1.77
+Twilight Margin,Naine orange,0.3,4500,0.7,6.5,30.0,orange,2.0,0.2,0.4108,0.9695
+Borderland,Sous-geante,3.0,6000,1.5,3.5,5.0,jaune,1.5,0.08,1.299,3.0657
+Penumbra Zone,Naine rouge,0.01,3200,0.3,8.1,100.0,rouge,10.0,0.6,0.075,0.177
+Inferno Basin,Naine jaune,1.0,5778,1.0,2.5,10.0,jaune,1.0,0.1,0.75,1.77
+Frostbound,Naine orange,0.3,4500,0.7,7.0,30.0,orange,2.0,0.2,0.4108,0.9695
+Toxic Cloud,Naine jaune,1.0,5778,1.0,5.8,10.0,jaune,1.0,0.1,0.75,1.77
+Dusty Fringe,Naine orange,0.3,4500,0.7,4.2,30.0,orange,2.0,0.2,0.4108,0.9695
+Gravel Storm,Sous-geante,3.0,6000,1.5,2.8,5.0,jaune,1.5,0.08,1.299,3.0657
+Null Void,Geante bleue,50000.0,30000,20.0,0.02,0.01,bleue,100000.0,0.0,167.7051,395.784
+Iron Tomb,Geante rouge,1000.0,3700,5.0,7.5,0.1,rouge,5.0,0.05,23.7171,55.9723
+Static Relic,Naine blanche,0.001,25000,0.6,5.2,999.0,blanche,50.0,0.0,0.0237,0.056
+Cascade Blue,Naine jaune,1.0,5778,1.0,8.1,10.0,jaune,1.0,0.1,0.75,1.77
+Palidor Watch,Naine orange,0.3,4500,0.7,7.6,30.0,orange,2.0,0.2,0.4108,0.9695
+Halcyon Deep,Sous-geante,3.0,6000,1.5,6.1,5.0,jaune,1.5,0.08,1.299,3.0657
+Zephyr Cradle,Naine jaune,1.0,5778,1.0,5.7,10.0,jaune,1.0,0.1,0.75,1.77
+Opal Sanctum,Naine orange,0.3,4500,0.7,9.5,30.0,orange,2.0,0.2,0.4108,0.9695
+Marble Watch,Sous-geante,3.0,6000,1.5,5.5,5.0,jaune,1.5,0.08,1.299,3.0657
